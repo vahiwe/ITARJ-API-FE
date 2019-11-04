@@ -10,7 +10,7 @@ def home():
         company = str(request.form['message'])
         address = str(request.form['address'])
         invite = str(request.form['invite'])
-        url = 'https://itarj-cors.appspot.com/https://isthisarealjob-api.appspot.com/form'
+        url = 'https://itarj-cors.appspot.com/http://35.223.64.55/form'
         payload = {'company': company,
         'address': address,
         'invite': invite}
